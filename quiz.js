@@ -91,4 +91,5 @@ function submitQuiz() {
         Correct answer: <b>${q.options[correctAns]}</b> ${result}</p>`;
     });
     resultBox.innerHTML = `<h3>Total Correct: ${correct}/${questions.length}</h3>` + resultBox.innerHTML;
+    localStorage.setItem('score_' + subject, `${correct}/${questions.length}`);
 }
