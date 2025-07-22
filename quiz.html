@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>NEET PG Quiz - MedEnclave</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>NEET PG Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f0f0f0;
+    }
+    #quiz-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+    button {
+      display: block;
+      margin: 1rem 0;
+      padding: 10px 20px;
+      font-size: 1rem;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <h1 id="subject-title">Loading Subject...</h1>
-    <div class="quiz-container">
-        <div class="question-section">
-            <div id="question-box"></div>
-            <div class="quiz-buttons">
-                <button onclick="prevQuestion()">Previous</button>
-                <button onclick="markForReview()">Mark for Review</button>
-                <button onclick="saveAndNext()">Save & Next</button>
-            </div>
-        </div>
-        <div class="palette-section">
-            <h3>Question Palette</h3>
-            <div id="question-palette"></div>
-            <button onclick="submitQuiz()" class="submit-btn">Submit</button>
-        </div>
-    </div>
-    <div id="result-box"></div>
-    <script src="quiz.js"></script>
+  <div id="quiz-container">
+    <h2 id="question-number"></h2>
+    <p id="question-text"></p>
+    <div id="options"></div>
+  </div>
+  <script src="quiz.js"></script>
 </body>
 </html>
