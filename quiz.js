@@ -10,7 +10,7 @@ function getSubject() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const subject = getSubject();
-  fetch(`https://89349997-93dd-43a4-a52c-ef5091bd1e4e-00-1vhawurtdnpio.sisko.replit.dev/data/${subject}.json`)
+  fetch(`questions/${subject}.json`)
     .then(res => res.json())
     .then(data => {
       questions = data.questions;
