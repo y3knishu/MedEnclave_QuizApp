@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEET PG MCQs - MedEnclave</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .subject-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .subject-card {
+      background: white;
+      border: 2px solid #ccc;
+      border-left: 10px solid transparent;
+      padding: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+    .subject-card:hover {
+      background: #e6f7ff;
+    }
+    .green { border-left-color: #28a745; }
+    .yellow { border-left-color: #ffc107; }
+    .red { border-left-color: #dc3545; }
+    .gray { border-left-color: #6c757d; }
+    .score-info {
+      font-size: 0.9rem;
+      margin-top: 5px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>NEET PG Subjects</h1>
+  <div class="subject-list" id="subjectList"></div>
+
+  <script>
+    const subjects = [
+      "Anatomy", "Physiology", "Biochemistry", "Pathology", "Pharmacology", "Microbiology",
+      "Forensic Medicine", "Community Medicine", "ENT", "Ophthalmology", "General Medicine",
+      "General Surgery", "Obstetrics & Gynaecology", "Pediatrics", "Orthopaedics",
+      "Dermatology", "Psychiatry", "Respiratory Medicine", "Anesthesiology"
+    ];
+
+    function loadSubjects() {
+      const list = document.getElementById("subjectList");
+      subjects.forEach(subj => {
+        const scoreData = JSON.parse(localStorage.getItem("score_" + subj));
+        let color = "gray", scoreInfo = "Not attempted";
+
+        if (scoreData) {
+          const percent = (scoreData.correct / scoreData.total) * 100;
+          if (percent >= 75) color = "green";
+          else if (percent >= 50) color = "yellow";
+          else color = "red";
+          scoreInfo = `Score: ${scoreData.correct}/${scoreData.total}`;
+        }
+
+        const div = document.createElement("div");
+        div.className = "subject-card " + color;
+        div.onclick = () => location.href = `quiz.html?subject=${encodeURIComponent(subj)}`;
+        div.innerHTML = `<strong>${subj}</strong><div class="score-info">${scoreInfo}</div>`;
+        list.appendChild(div);
+      });
+    }
+
+    window.onload = loadSubjects;
+  </script>
+</body>
+</html>
