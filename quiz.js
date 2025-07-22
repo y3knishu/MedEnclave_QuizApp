@@ -18,7 +18,7 @@ if (!subject) {
 }
 
 function loadQuestions(subject) {
-  fetch(`data/${subject}.json`)
+  fetch(`questions/${subject}.json`)
     .then(res => res.json())
     .then(data => {
       questions = data.questions || [];
