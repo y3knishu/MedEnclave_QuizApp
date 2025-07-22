@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulk Upload MCQs - Admin Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f8ff;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    #upload-section {
+      display: none;
+    }
+    .success {
+      color: green;
+    }
+    .file-list {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Admin Panel - Bulk Upload JSON MCQs</h2>
+
+  <input type="password" id="admin-pass" placeholder="Enter admin password" />
+  <button onclick="checkPassword()">Login</button>
+
+  <div id="upload-section">
+    <h3>Select Multiple JSON Files</h3>
+    <input type="file" id="jsonFiles" accept=".json" multiple>
+    <button onclick="downloadAll()">Download Selected</button>
+    <div id="fileResults" class="file-list"></div>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const pass = document.getElementById('admin-pass').value;
+      if (pass === "medenclave123") {
+        document.getElementById('upload-section').style.display = 'block';
+        document.getElementById('admin-pass').style.display = 'none';
+      } else {
+        alert("Incorrect password!");
+      }
+    }
+
+    function downloadAll() {
+      const files = document.getElementById('jsonFiles').files;
+      const outputDiv = document.getElementById('fileResults');
+      outputDiv.innerHTML = "";
+
+      if (!files.length) {
+        alert("Please select at least one JSON file.");
+        return;
+      }
+
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = file.name;
+            a.textContent = "⬇️ " + file.name;
+            a.style.display = "block";
+            outputDiv.appendChild(a);
+          } catch (err) {
+            const errMsg = document.createElement("p");
+            errMsg.textContent = "❌ Invalid JSON in file: " + file.name;
+            errMsg.style.color = "red";
+            outputDiv.appendChild(errMsg);
+          }
+        };
+        reader.readAsText(file);
+      });
+    }
+  </script>
+</body>
+</html>
