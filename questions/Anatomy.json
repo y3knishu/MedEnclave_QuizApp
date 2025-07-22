@@ -1,111 +1,13 @@
 {
   "questions": [
     {
-      "question": "What is the largest sesamoid bone in the body? (1)",
+      "question": "What is the largest sesamoid bone in the body?",
       "options": ["Pisiform", "Patella", "Navicular", "Calcaneus"],
       "answer": 1
     },
     {
-      "question": "The anatomical snuffbox contains which artery? (2)",
+      "question": "The anatomical snuffbox contains which artery?",
       "options": ["Ulnar", "Radial", "Brachial", "Subclavian"],
-      "answer": 1
-    },
-    {
-      "question": "Which nerve innervates the diaphragm? (3)",
-      "options": ["Vagus nerve", "Phrenic nerve", "Intercostal nerve", "Recurrent laryngeal nerve"],
-      "answer": 1
-    },
-    {
-      "question": "Which muscle is supplied by the spinal accessory nerve? (4)",
-      "options": ["Trapezius", "Serratus anterior", "Latissimus dorsi", "Rhomboid major"],
-      "answer": 0
-    },
-    {
-      "question": "What type of joint is the shoulder joint? (5)",
-      "options": ["Hinge", "Ball and socket", "Pivot", "Ellipsoid"],
-      "answer": 1
-    },
-    {
-      "question": "What is the largest sesamoid bone in the body? (6)",
-      "options": ["Pisiform", "Patella", "Navicular", "Calcaneus"],
-      "answer": 1
-    },
-    {
-      "question": "The anatomical snuffbox contains which artery? (7)",
-      "options": ["Ulnar", "Radial", "Brachial", "Subclavian"],
-      "answer": 1
-    },
-    {
-      "question": "Which nerve innervates the diaphragm? (8)",
-      "options": ["Vagus nerve", "Phrenic nerve", "Intercostal nerve", "Recurrent laryngeal nerve"],
-      "answer": 1
-    },
-    {
-      "question": "Which muscle is supplied by the spinal accessory nerve? (9)",
-      "options": ["Trapezius", "Serratus anterior", "Latissimus dorsi", "Rhomboid major"],
-      "answer": 0
-    },
-    {
-      "question": "What type of joint is the shoulder joint? (10)",
-      "options": ["Hinge", "Ball and socket", "Pivot", "Ellipsoid"],
-      "answer": 1
-    },
-    {
-      "question": "What is the largest sesamoid bone in the body? (11)",
-      "options": ["Pisiform", "Patella", "Navicular", "Calcaneus"],
-      "answer": 1
-    },
-    {
-      "question": "The anatomical snuffbox contains which artery? (12)",
-      "options": ["Ulnar", "Radial", "Brachial", "Subclavian"],
-      "answer": 1
-    },
-    {
-      "question": "Which nerve innervates the diaphragm? (13)",
-      "options": ["Vagus nerve", "Phrenic nerve", "Intercostal nerve", "Recurrent laryngeal nerve"],
-      "answer": 1
-    },
-    {
-      "question": "Which muscle is supplied by the spinal accessory nerve? (14)",
-      "options": ["Trapezius", "Serratus anterior", "Latissimus dorsi", "Rhomboid major"],
-      "answer": 0
-    },
-    {
-      "question": "What type of joint is the shoulder joint? (15)",
-      "options": ["Hinge", "Ball and socket", "Pivot", "Ellipsoid"],
-      "answer": 1
-    },
-    {
-      "question": "What is the largest sesamoid bone in the body? (16)",
-      "options": ["Pisiform", "Patella", "Navicular", "Calcaneus"],
-      "answer": 1
-    },
-    {
-      "question": "The anatomical snuffbox contains which artery? (17)",
-      "options": ["Ulnar", "Radial", "Brachial", "Subclavian"],
-      "answer": 1
-    },
-    {
-      "question": "Which nerve innervates the diaphragm? (18)",
-      "options": ["Vagus nerve", "Phrenic nerve", "Intercostal nerve", "Recurrent laryngeal nerve"],
-      "answer": 1
-    },
-    {
-      "question": "Which muscle is supplied by the spinal accessory nerve? (19)",
-      "options": ["Trapezius", "Serratus anterior", "Latissimus dorsi", "Rhomboid major"],
-      "answer": 0
-    },
-    {
-      "question": "What type of joint is the shoulder joint? (20)",
-      "options": ["Hinge", "Ball and socket", "Pivot", "Ellipsoid"],
-      "answer": 1
-    },
-
-    // ... (repeat similar blocks up to question 50)
-
-    {
-      "question": "Which nerve innervates the diaphragm? (50)",
-      "options": ["Vagus nerve", "Phrenic nerve", "Intercostal nerve", "Recurrent laryngeal nerve"],
       "answer": 1
     }
   ]
