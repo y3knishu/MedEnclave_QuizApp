@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEET PG Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-container">
+    <div id="sidebar">
+      <h3>Question Palette</h3>
+      <div id="palette"></div>
+      <button onclick="submitQuiz()" class="submit-btn">Submit Quiz</button>
+    </div>
+
+    <div id="quiz-box">
+      <div id="question-header">
+        <h2 id="question-number">Question 1</h2>
+        <p id="question-text">Loading...</p>
+      </div>
+      <div id="options"></div>
+      <div class="nav-buttons">
+        <button onclick="prevQuestion()">Previous</button>
+        <button onclick="markForReview()">Mark for Review</button>
+        <button onclick="saveAndNext()">Save & Next</button>
+      </div>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
