@@ -1,7 +1,21 @@
-<script>
 let questions = [];
 let currentQuestion = 0;
 let correctAnswers = 0;
+
+function getSubjectFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("subject");
+}
+
+const subject = getSubjectFromURL();
+if (!subject) {
+  document.getElementById("quiz-container").innerHTML = `
+    <h2>No Subject Selected</h2>
+    <p>Please go back and select a subject from the homepage.</p>
+  `;
+} else {
+  loadQuestions(subject);
+}
 
 function loadQuestions(subject) {
   fetch(`data/${subject}.json`)
@@ -53,6 +67,6 @@ function showResult() {
     <h2>Quiz Complete</h2>
     <p>Correct: ${correctAnswers}</p>
     <p>Incorrect: ${questions.length - correctAnswers}</p>
+    <a href="index.html">Back to Subject List</a>
   `;
 }
-</script>
