@@ -1,4 +1,3 @@
-
 let questions = [];
 let current = 0;
 let answers = {};
@@ -138,6 +137,8 @@ function submitQuiz() {
     `;
   });
 
-  reviewHTML += `</ol><a href="index.html">Back to Subjects</a></div>`;
+  reviewHTML += `</ol>
+    <br><button onclick="window.location.href='quiz.html?subject=${subject}'">Retake Quiz</button>
+    <br><br><a href="index.html">Back to Subjects</a></div>`;
   document.body.innerHTML = reviewHTML;
 }
