@@ -45,6 +45,20 @@ function showQuestion(index) {
 
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
+
+  const container = document.getElementById("question-container");
+  const oldImg = document.getElementById("question-image");
+  if (oldImg) oldImg.remove();
+
+  if (q.image) {
+    const img = document.createElement("img");
+    img.src = q.image;
+    img.id = "question-image";
+    img.style.maxWidth = "100%";
+    img.style.marginBottom = "1rem";
+    container.insertBefore(img, optionsDiv);
+  }
+
   q.options.forEach((opt, i) => {
     const btn = document.createElement("button");
     btn.innerText = opt;
@@ -134,6 +148,7 @@ function submitQuiz() {
     reviewHTML += `
       <li style="margin-bottom:10px">
         <strong>Q${i + 1}:</strong> ${q.question}<br>
+        ${q.image ? `<img src="${q.image}" style="max-width:300px;margin:8px 0"><br>` : ""}
         <span>Your Answer: <b style="color:${isCorrect ? 'green' : 'red'}">${userAns}</b></span><br>
         <span>Correct Answer: <b style="color:green">${correctAns}</b></span>
       </li>
