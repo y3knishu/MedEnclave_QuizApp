@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "question": "What is a sample question in Biochemistry?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ]
+}
