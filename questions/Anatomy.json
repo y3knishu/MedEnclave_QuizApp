@@ -1,24 +1,502 @@
-{
-  "questions": [
-    {
-      "question": "What is a key concept in Anatomy?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": "A"
-    },
-    {
-      "question": "A clinical case related to Anatomy would most likely present with?",
-      "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
-      ],
-      "answer": "Option 3"
-    }
-  ]
-}
+[
+  {
+    "question": "Which is the largest sesamoid bone in the human body?",
+    "options": [
+      "Pisiform",
+      "Patella",
+      "Fabella",
+      "Os trigonum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following bones develops in a tendon?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Patella",
+      "Humerus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The adult vertebral column has how many vertebrae?",
+    "options": [
+      "26",
+      "30",
+      "33",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is the strongest ligament in the human body?",
+    "options": [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a derivative of the first pharyngeal arch?",
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Hyoid bone",
+      "Thyroid cartilage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following cranial nerves carries parasympathetic fibers?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Oculomotor",
+      "Trochlear"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The primary ossification center of femur appears at which week of intrauterine life?",
+    "options": [
+      "5th week",
+      "7th week",
+      "8th week",
+      "12th week"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which structure passes through the foramen magnum?",
+    "options": [
+      "Internal carotid artery",
+      "Spinal cord",
+      "Jugular vein",
+      "Facial nerve"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of joint is the knee joint?",
+    "options": [
+      "Hinge",
+      "Pivot",
+      "Ball and socket",
+      "Plane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which artery is the main blood supply to the head of femur in adults?",
+    "options": [
+      "Obturator artery",
+      "Medial circumflex femoral artery",
+      "Lateral circumflex femoral artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest sesamoid bone in the human body?",
+    "options": [
+      "Pisiform",
+      "Patella",
+      "Fabella",
+      "Os trigonum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following bones develops in a tendon?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Patella",
+      "Humerus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The adult vertebral column has how many vertebrae?",
+    "options": [
+      "26",
+      "30",
+      "33",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is the strongest ligament in the human body?",
+    "options": [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a derivative of the first pharyngeal arch?",
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Hyoid bone",
+      "Thyroid cartilage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following cranial nerves carries parasympathetic fibers?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Oculomotor",
+      "Trochlear"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The primary ossification center of femur appears at which week of intrauterine life?",
+    "options": [
+      "5th week",
+      "7th week",
+      "8th week",
+      "12th week"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which structure passes through the foramen magnum?",
+    "options": [
+      "Internal carotid artery",
+      "Spinal cord",
+      "Jugular vein",
+      "Facial nerve"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of joint is the knee joint?",
+    "options": [
+      "Hinge",
+      "Pivot",
+      "Ball and socket",
+      "Plane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which artery is the main blood supply to the head of femur in adults?",
+    "options": [
+      "Obturator artery",
+      "Medial circumflex femoral artery",
+      "Lateral circumflex femoral artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest sesamoid bone in the human body?",
+    "options": [
+      "Pisiform",
+      "Patella",
+      "Fabella",
+      "Os trigonum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following bones develops in a tendon?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Patella",
+      "Humerus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The adult vertebral column has how many vertebrae?",
+    "options": [
+      "26",
+      "30",
+      "33",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is the strongest ligament in the human body?",
+    "options": [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a derivative of the first pharyngeal arch?",
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Hyoid bone",
+      "Thyroid cartilage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following cranial nerves carries parasympathetic fibers?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Oculomotor",
+      "Trochlear"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The primary ossification center of femur appears at which week of intrauterine life?",
+    "options": [
+      "5th week",
+      "7th week",
+      "8th week",
+      "12th week"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which structure passes through the foramen magnum?",
+    "options": [
+      "Internal carotid artery",
+      "Spinal cord",
+      "Jugular vein",
+      "Facial nerve"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of joint is the knee joint?",
+    "options": [
+      "Hinge",
+      "Pivot",
+      "Ball and socket",
+      "Plane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which artery is the main blood supply to the head of femur in adults?",
+    "options": [
+      "Obturator artery",
+      "Medial circumflex femoral artery",
+      "Lateral circumflex femoral artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest sesamoid bone in the human body?",
+    "options": [
+      "Pisiform",
+      "Patella",
+      "Fabella",
+      "Os trigonum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following bones develops in a tendon?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Patella",
+      "Humerus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The adult vertebral column has how many vertebrae?",
+    "options": [
+      "26",
+      "30",
+      "33",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is the strongest ligament in the human body?",
+    "options": [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a derivative of the first pharyngeal arch?",
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Hyoid bone",
+      "Thyroid cartilage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following cranial nerves carries parasympathetic fibers?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Oculomotor",
+      "Trochlear"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The primary ossification center of femur appears at which week of intrauterine life?",
+    "options": [
+      "5th week",
+      "7th week",
+      "8th week",
+      "12th week"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which structure passes through the foramen magnum?",
+    "options": [
+      "Internal carotid artery",
+      "Spinal cord",
+      "Jugular vein",
+      "Facial nerve"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of joint is the knee joint?",
+    "options": [
+      "Hinge",
+      "Pivot",
+      "Ball and socket",
+      "Plane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which artery is the main blood supply to the head of femur in adults?",
+    "options": [
+      "Obturator artery",
+      "Medial circumflex femoral artery",
+      "Lateral circumflex femoral artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest sesamoid bone in the human body?",
+    "options": [
+      "Pisiform",
+      "Patella",
+      "Fabella",
+      "Os trigonum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following bones develops in a tendon?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Patella",
+      "Humerus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The adult vertebral column has how many vertebrae?",
+    "options": [
+      "26",
+      "30",
+      "33",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is the strongest ligament in the human body?",
+    "options": [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a derivative of the first pharyngeal arch?",
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Hyoid bone",
+      "Thyroid cartilage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following cranial nerves carries parasympathetic fibers?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Oculomotor",
+      "Trochlear"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The primary ossification center of femur appears at which week of intrauterine life?",
+    "options": [
+      "5th week",
+      "7th week",
+      "8th week",
+      "12th week"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which structure passes through the foramen magnum?",
+    "options": [
+      "Internal carotid artery",
+      "Spinal cord",
+      "Jugular vein",
+      "Facial nerve"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of joint is the knee joint?",
+    "options": [
+      "Hinge",
+      "Pivot",
+      "Ball and socket",
+      "Plane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which artery is the main blood supply to the head of femur in adults?",
+    "options": [
+      "Obturator artery",
+      "Medial circumflex femoral artery",
+      "Lateral circumflex femoral artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 1
+  }
+]
