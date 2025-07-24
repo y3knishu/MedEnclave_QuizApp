@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "What is the most appropriate step in Dermatology case management?",
+      "options": [
+        "Step A",
+        "Step B",
+        "Step C",
+        "Step D"
+      ],
+      "answer": "Step C"
+    },
+    {
+      "question": "A Dermatology condition typically shows what kind of symptom?",
+      "options": [
+        "Symptom A",
+        "Symptom B",
+        "Symptom C",
+        "Symptom D"
+      ],
+      "answer": "Symptom A"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "What is a key concept in Pathology?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A clinical case related to Pathology would most likely present with?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "answer": "Option 3"
+    }
+  ]
+}
